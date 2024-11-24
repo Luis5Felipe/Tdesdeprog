@@ -1,5 +1,15 @@
 package view;
 
+/*
+ 	trabalho feito por:
+ 	Luis Felipe Dos Santos
+ 	Aron Barbosa
+ 	João Torres
+ 	João Marcelo torres 
+
+ */
+
+
 import controller.FuncionarioController;
 import model.*;
 
