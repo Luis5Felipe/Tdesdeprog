@@ -5,8 +5,7 @@ package view;
  	Luis Felipe Dos Santos
  	Aron Barbosa
  	João Torres
- 	João Marcelo torres 
-
+ 	João Marcelo Lopes
  */
 
 
