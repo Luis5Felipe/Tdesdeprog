@@ -1,6 +1,9 @@
 package model;
 
-public class Treinador extends Funcionario implements Treina {
+import java.io.Serializable;
+
+public class Treinador extends Funcionario implements Treina, Serializable {
+    private static final long serialVersionUID = 1L;
 
     public Treinador(int id, String nome, double salario) {
         super(id, nome, salario);

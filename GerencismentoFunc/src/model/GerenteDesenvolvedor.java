@@ -1,6 +1,9 @@
 package model;
 
-public class GerenteDesenvolvedor extends Funcionario implements Desenvolve, Gerencia {
+import java.io.Serializable;
+
+public class GerenteDesenvolvedor extends Funcionario implements Desenvolve, Gerencia, Serializable {
+    private static final long serialVersionUID = 1L; 
 
     public GerenteDesenvolvedor(int id, String nome, double salario) {
         super(id, nome, salario);

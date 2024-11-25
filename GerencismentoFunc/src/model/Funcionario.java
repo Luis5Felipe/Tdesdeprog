@@ -1,6 +1,10 @@
 package model;
 
-public abstract class Funcionario {
+import java.io.Serializable;
+
+public abstract class Funcionario implements Serializable { 
+    private static final long serialVersionUID = 1L;
+
     protected int id;
     protected String nome;
     protected double salario;

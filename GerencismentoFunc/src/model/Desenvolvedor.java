@@ -1,6 +1,7 @@
 package model;
 
 public class Desenvolvedor extends Funcionario implements Desenvolve {
+    private static final long serialVersionUID = 1L;
 
     public Desenvolvedor(int id, String nome, double salario) {
         super(id, nome, salario);

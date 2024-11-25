@@ -1,6 +1,9 @@
 package model;
 
-public class Gerente extends Funcionario implements Gerencia {
+import java.io.Serializable;
+
+public class Gerente extends Funcionario implements Gerencia, Serializable {
+    private static final long serialVersionUID = 1L; // Identificador único para controle de versão
 
     public Gerente(int id, String nome, double salario) {
         super(id, nome, salario);
