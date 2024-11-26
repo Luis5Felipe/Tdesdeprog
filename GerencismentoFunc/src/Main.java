@@ -1,5 +1,11 @@
-package src;
 
+/*
+ 	trabalho feito por:
+ 	Luis Felipe Dos Santos
+ 	Aron Barbosa
+ 	João Torres
+ 	João Marcelo Lopes
+ */
 import view.FuncionarioView;
 import controller.FuncionarioController;
 
